@@ -48,7 +48,7 @@ public class Contract {
     }
 
     // Create Contract
-    public Contract createContract(String contractId, String propertyID, String tenantId, double rentAmount) {
+    public static Contract createContract(String contractId, String propertyID, String tenantId, double rentAmount) {
         Contract contract = new Contract(contractId, propertyID, tenantId, rentAmount);
         return contract;
     }
